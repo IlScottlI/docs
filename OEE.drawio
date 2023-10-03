@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T10:49:15.677Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="rHRN-7jHc_nRkBKrul0m" version="22.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T10:53:25.235Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="4r8oXG2OuUOhN7R3-YlG" version="22.0.1" type="github">
   <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
-    <mxGraphModel dx="978" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="1349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -146,38 +146,53 @@
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-7" value="Unplanned Downtimes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fa6800;strokeColor=#C73500;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="420" y="155" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="5pPigE-QQ9vPAHt9I9ky-24" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;startSize=2;endSize=2;" edge="1" parent="1" source="5pPigE-QQ9vPAHt9I9ky-8" target="5pPigE-QQ9vPAHt9I9ky-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pPigE-QQ9vPAHt9I9ky-25" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;startSize=2;endSize=2;" edge="1" parent="1" source="5pPigE-QQ9vPAHt9I9ky-8" target="5pPigE-QQ9vPAHt9I9ky-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-8" value="Performance losses" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fa6800;strokeColor=#C73500;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="270" y="222" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5pPigE-QQ9vPAHt9I9ky-26" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;startSize=2;endSize=2;" edge="1" parent="1" source="5pPigE-QQ9vPAHt9I9ky-9" target="5pPigE-QQ9vPAHt9I9ky-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pPigE-QQ9vPAHt9I9ky-27" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;startSize=2;endSize=2;" edge="1" parent="1" source="5pPigE-QQ9vPAHt9I9ky-9" target="5pPigE-QQ9vPAHt9I9ky-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-9" value="Quality losses" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fa6800;strokeColor=#C73500;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="230" y="290" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-10" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;No Orders&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;fontColor=#FFFFFF;strokeColor=#BD7000;spacing=0;spacingBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="70" width="110" height="40" as="geometry" />
+          <mxGeometry x="670" y="77" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-11" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Projects, Trials, Company Training&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;fontColor=#FFFFFF;strokeColor=#BD7000;spacing=0;spacingBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="112" width="110" height="43" as="geometry" />
+          <mxGeometry x="670" y="112" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-12" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Failures &amp;amp; Breakdowns&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;fontColor=#FFFFFF;strokeColor=#BD7000;spacing=0;spacingBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="166" width="110" height="43" as="geometry" />
+          <mxGeometry x="670" y="151" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-13" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Setup &amp;amp; Adjustments&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;fontColor=#FFFFFF;strokeColor=#BD7000;spacing=0;spacingBottom=0;spacingRight=10;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="670" y="211" width="110" height="43" as="geometry" />
+          <mxGeometry x="670" y="188" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-15" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Idle Time handover procedures&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;fontColor=#FFFFFF;strokeColor=#BD7000;spacing=0;spacingBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="270" width="110" height="43" as="geometry" />
+          <mxGeometry x="670" y="228" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-16" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Speed Reduced&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;fontColor=#FFFFFF;strokeColor=#BD7000;spacing=0;spacingBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="320" width="110" height="43" as="geometry" />
+          <mxGeometry x="670" y="265" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-17" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Defects in process&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;fontColor=#FFFFFF;strokeColor=#BD7000;spacing=0;spacingBottom=0;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="640" y="370" width="110" height="43" as="geometry" />
+          <mxGeometry x="670" y="302" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-18" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Defects in Materials&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f0a30a;fontColor=#FFFFFF;strokeColor=#BD7000;spacing=0;spacingBottom=0;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
-          <mxGeometry x="640" y="420" width="110" height="43" as="geometry" />
+          <mxGeometry x="670" y="340" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="5pPigE-QQ9vPAHt9I9ky-22" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.041;entryY=0.437;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;startSize=2;endSize=2;" edge="1" parent="1" source="5pPigE-QQ9vPAHt9I9ky-7" target="5pPigE-QQ9vPAHt9I9ky-12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pPigE-QQ9vPAHt9I9ky-28" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="827" y="98" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
