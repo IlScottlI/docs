@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T16:43:26.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZdwEPgxTxmpdkP3f7Ym3" version="22.1.22" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-23T17:25:00.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="A_QlYb0-FV7oe6b4w4Dz" version="22.1.22" type="github" pages="2">
   <diagram name="OEE Data Flow - MQTT" id="iwFp47j3jkuVN9hIityh">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -231,15 +231,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u-cxBAkaLCU1vluoVzls" name="OEE Data Flow">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5HxtPE3qpu_ST4j68AVL-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="770" width="960" height="740" as="geometry" />
+          <mxGeometry x="40" y="770" width="1040" height="740" as="geometry" />
         </mxCell>
         <mxCell id="5HxtPE3qpu_ST4j68AVL-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5HxtPE3qpu_ST4j68AVL-1">
-          <mxGeometry x="30" y="50" width="880" height="650" as="geometry" />
+          <mxGeometry x="30" y="50" width="950" height="650" as="geometry" />
         </mxCell>
         <mxCell id="5HxtPE3qpu_ST4j68AVL-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5HxtPE3qpu_ST4j68AVL-1">
           <mxGeometry x="60" y="90" width="410" height="470" as="geometry" />
