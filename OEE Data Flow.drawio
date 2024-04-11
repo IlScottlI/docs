@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T21:24:02.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="MvVc9meLNCuKOdkgvy4Q" version="23.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-11T21:07:55.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="AzZJzZtsUhKznwCQOsMH" version="23.1.5" type="github" pages="2">
   <diagram name="OEE Data Flow - MQTT" id="iwFp47j3jkuVN9hIityh">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -231,7 +231,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u-cxBAkaLCU1vluoVzls" name="OEE Data Flow">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -367,13 +367,10 @@
         <mxCell id="5HxtPE3qpu_ST4j68AVL-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="5HxtPE3qpu_ST4j68AVL-1" source="5HxtPE3qpu_ST4j68AVL-81" target="5HxtPE3qpu_ST4j68AVL-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nTfjwsC8snGan4jAFpdy-3" value="Folder Path" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.5;" vertex="1" parent="5HxtPE3qpu_ST4j68AVL-1">
-          <mxGeometry x="474" y="184" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="5HxtPE3qpu_ST4j68AVL-54" value="Site" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="58" y="754" width="106" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="nTfjwsC8snGan4jAFpdy-2" value="PLC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="nTfjwsC8snGan4jAFpdy-2" value="PLC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1030" y="990" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
