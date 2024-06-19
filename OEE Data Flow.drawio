@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T16:40:39.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="n2RaS9L7wGVpxPp2_g-e" version="24.5.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-19T16:56:30.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="zHPBzL6xdeL8KWfBM28o" version="24.5.5" type="github" pages="3">
   <diagram name="OEE Data Flow - MQTT" id="iwFp47j3jkuVN9hIityh">
     <mxGraphModel dx="1647" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -367,11 +367,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-fNOh6AiBlwwCp4QUCRg" name="MCB Data Flow">
-    <mxGraphModel dx="1647" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="886" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="d3H9oq51g9DiAVT-BQhr-15" value="Tag Data Flow (Current)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-15" value="Tag Data Flow" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="30" width="670" height="230" as="geometry" />
         </mxCell>
         <mxCell id="d3H9oq51g9DiAVT-BQhr-8" value="PLC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="d3H9oq51g9DiAVT-BQhr-15">
@@ -416,6 +416,39 @@
         </mxCell>
         <mxCell id="d3H9oq51g9DiAVT-BQhr-18" value="Readonly" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="d3H9oq51g9DiAVT-BQhr-22">
           <mxGeometry x="20" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-23" value="Data Flow Diagram&lt;br&gt;Level 0: Context Diagram" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="660" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d3H9oq51g9DiAVT-BQhr-23" source="d3H9oq51g9DiAVT-BQhr-26" target="d3H9oq51g9DiAVT-BQhr-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-26" value="PLC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="d3H9oq51g9DiAVT-BQhr-23">
+          <mxGeometry x="50" y="55" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d3H9oq51g9DiAVT-BQhr-23" source="d3H9oq51g9DiAVT-BQhr-32" target="d3H9oq51g9DiAVT-BQhr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-32" value="Ignition Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="d3H9oq51g9DiAVT-BQhr-23">
+          <mxGeometry x="240" y="57.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="d3H9oq51g9DiAVT-BQhr-23" source="d3H9oq51g9DiAVT-BQhr-34" target="d3H9oq51g9DiAVT-BQhr-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="d3H9oq51g9DiAVT-BQhr-23" source="d3H9oq51g9DiAVT-BQhr-34" target="d3H9oq51g9DiAVT-BQhr-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-34" value="Sepasoft OEE Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="d3H9oq51g9DiAVT-BQhr-23">
+          <mxGeometry x="420" y="57.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-36" value="Database" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="d3H9oq51g9DiAVT-BQhr-23">
+          <mxGeometry x="240" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-38" value="User Interface" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="d3H9oq51g9DiAVT-BQhr-23">
+          <mxGeometry x="420" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3H9oq51g9DiAVT-BQhr-44" value="&lt;li&gt;&lt;strong&gt;PLC:&lt;/strong&gt; Provides real-time data via tags.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Ignition Gateway:&lt;/strong&gt; Aggregates data from PLCs and passes it to the Sepasoft OEE module.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Sepasoft OEE Module:&lt;/strong&gt; Computes OEE metrics.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Database:&lt;/strong&gt; Stores historical and computed OEE data.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User Interface:&lt;/strong&gt; Allows users to visualize and analyze OEE data.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="d3H9oq51g9DiAVT-BQhr-23">
+          <mxGeometry x="25" y="240" width="550" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
