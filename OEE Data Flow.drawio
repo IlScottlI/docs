@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T17:00:00.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="v2E-8UZkekgXBTJnOBgg" version="24.5.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-19T17:02:04.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="lm4PNNB5RKXLbtQ_YXEk" version="24.5.5" type="github" pages="3">
   <diagram name="OEE Data Flow - MQTT" id="iwFp47j3jkuVN9hIityh">
     <mxGraphModel dx="1647" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -366,8 +366,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="-fNOh6AiBlwwCp4QUCRg" name="MCB Data Flow">
-    <mxGraphModel dx="1136" dy="611" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+  <diagram id="-fNOh6AiBlwwCp4QUCRg" name="DFD">
+    <mxGraphModel dx="1647" dy="886" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -448,7 +448,7 @@
           <mxGeometry x="420" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d3H9oq51g9DiAVT-BQhr-44" value="&lt;li&gt;&lt;strong&gt;PLC:&lt;/strong&gt; Provides real-time data via tags.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Ignition Gateway:&lt;/strong&gt; Aggregates data from PLCs and passes it to the Sepasoft OEE module.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Sepasoft OEE Module:&lt;/strong&gt; Computes OEE metrics.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Database:&lt;/strong&gt; Stores historical and computed OEE data.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User Interface:&lt;/strong&gt; Allows users to visualize and analyze OEE data.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="d3H9oq51g9DiAVT-BQhr-23">
-          <mxGeometry x="25" y="240" width="550" height="100" as="geometry" />
+          <mxGeometry x="25" y="252" width="550" height="88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
