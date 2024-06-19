@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T17:14:51.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="UcEwujIxPMXuhmCKKK0d" version="24.5.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-19T17:16:41.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="TGritmKUh3LHlMIBAiy5" version="24.5.5" type="github" pages="3">
   <diagram name="OEE Data Flow - MQTT" id="iwFp47j3jkuVN9hIityh">
     <mxGraphModel dx="1647" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -355,7 +355,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-fNOh6AiBlwwCp4QUCRg" name="DFD">
-    <mxGraphModel dx="1373" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="886" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -457,7 +457,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t-1gEfBDIV51QoKaV2OM-8" value="PLC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t-1gEfBDIV51QoKaV2OM-3">
-          <mxGeometry x="73" y="453" width="120" height="60" as="geometry" />
+          <mxGeometry x="104" y="454" width="58" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t-1gEfBDIV51QoKaV2OM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.132;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="t-1gEfBDIV51QoKaV2OM-3" source="t-1gEfBDIV51QoKaV2OM-6" target="t-1gEfBDIV51QoKaV2OM-5">
           <mxGeometry relative="1" as="geometry" />
@@ -474,11 +474,17 @@
         <mxCell id="t-1gEfBDIV51QoKaV2OM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.513;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="t-1gEfBDIV51QoKaV2OM-3" source="t-1gEfBDIV51QoKaV2OM-15" target="t-1gEfBDIV51QoKaV2OM-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t-1gEfBDIV51QoKaV2OM-18" value="OEE Project" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="t-1gEfBDIV51QoKaV2OM-3">
-          <mxGeometry x="547" y="191" width="309" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="t-1gEfBDIV51QoKaV2OM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.998;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="t-1gEfBDIV51QoKaV2OM-3" source="t-1gEfBDIV51QoKaV2OM-18" target="t-1gEfBDIV51QoKaV2OM-5">
+        <mxCell id="t-1gEfBDIV51QoKaV2OM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="t-1gEfBDIV51QoKaV2OM-3" source="t-1gEfBDIV51QoKaV2OM-18" target="t-1gEfBDIV51QoKaV2OM-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t-1gEfBDIV51QoKaV2OM-18" value="OEE Project" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="t-1gEfBDIV51QoKaV2OM-3">
+          <mxGeometry x="547" y="128" width="309" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="t-1gEfBDIV51QoKaV2OM-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="t-1gEfBDIV51QoKaV2OM-3" source="t-1gEfBDIV51QoKaV2OM-20" target="t-1gEfBDIV51QoKaV2OM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t-1gEfBDIV51QoKaV2OM-20" value="End-user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="t-1gEfBDIV51QoKaV2OM-3">
+          <mxGeometry x="695" y="13" width="13" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
